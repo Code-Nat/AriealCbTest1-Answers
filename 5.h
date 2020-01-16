@@ -1,3 +1,10 @@
+//For: 
+//27->34->23->56->12->42->46->75->NULL
+//k = 3
+
+//return:
+//27->34->56->12->42->46->75->NULL
+
 NODE* del(NODE* start, int k) //Removes Link at point K from head
 {
 	if (k < 1) //Cheak for unvalid input in K
